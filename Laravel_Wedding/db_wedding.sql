@@ -1,4 +1,4 @@
--- phpMyAdmin SQL Dump
+composer install-- phpMyAdmin SQL Dump
 -- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
