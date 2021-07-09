@@ -22,7 +22,7 @@ Route::get('/home', function(){
 Route::get('keluar',function(){
 	\Auth::logout();
 
-	return redirect('/');
+	return redirect('/login');
 });
 
 

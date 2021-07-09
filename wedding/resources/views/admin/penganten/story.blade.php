@@ -82,7 +82,6 @@
               <img class="img-responsive pad" src="{{ asset('uploads/'.$dt->gambar) }}" alt="Photo">
 
               	<form role="form" action="http://localhost/wedding/public/admin/banner/upload/1" method="post" enctype="multipart/form-data">
-					@method('patch')
 					{{ csrf_field() }}
 	              <div class="box-body">
 	              	<div class="form-group">
@@ -98,7 +97,7 @@
 	                  <textarea name="keterangan" class="form-control" rows="5"> {{ $dt->keterangan }} </textarea>
 	                </div>
 	                <div class="form-group">
-	                  <label for="exampleInputFile">Ganti Gambar Banner</label>
+	                  <label for="exampleInputFile">Ganti Gambar Story</label>
 	                  <input type="file" name="image" id="exampleInputFile">
 
 	                  <!-- <p class="help-block">Example block-level help text here.</p> -->
