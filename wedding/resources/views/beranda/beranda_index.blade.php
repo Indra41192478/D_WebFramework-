@@ -71,7 +71,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">WeddingDay<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a href="{{ url('/login') }}">NdangORabi<strong>.</strong></a></div>
 				</div>
 			</div>
 			

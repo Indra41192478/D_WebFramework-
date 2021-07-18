@@ -60,7 +60,7 @@
 	                <div class="form-group">
 	                  <label for="exampleInputPassword1">Waktu Mundur / Tanggal Acara</label>
 	                  <input type="text" class="form-control" value="{{ $data->waktu_mundur }}" name="waktu_mundur" placeholder="Ex: We Are Getting Married">
-	                  <p class="help-block">Format : Feb 2, 2019 08:00:00</p>
+	                  <p class="help-block">Format : April 10, 2021 08:00:00</p>
 	                </div>
 
 	              </div>

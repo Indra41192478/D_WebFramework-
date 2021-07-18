@@ -106,8 +106,8 @@
 	              <!-- /.box-body -->
 
 	              <div class="box-footer">
-	                <button type="submit" class="btn btn-primary">Edit</button>
-	                <a href="{{ url('admin/penganten/story/delete/'.$dt->story_id) }}" class="btn btn-danger btn-hapus" style="float: right;">Hapus</a>
+	               
+	                <a href="{{ url('admin/penganten/story/delete/'.$dt->story_id) }}" class="btn btn-danger btn-hapus" style="float: center;">Hapus</a>
 	              </div>
 	            </form>
             </div>
